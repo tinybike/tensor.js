@@ -1,0 +1,42 @@
+{
+  "name": "tensor",
+  "version": "0.1.0",
+  "description": "Matrix and tensor operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "jshint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinybike/tensor.js.git"
+  },
+  "keywords": [
+    "tensor",
+    "matrix",
+    "multilinear",
+    "math",
+    "numerical"
+  ],
+  "author": "Jack Peterson <jack@tinybike.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tinybike/tensor.js/issues"
+  },
+  "homepage": "https://github.com/tinybike/tensor.js#readme",
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "chai": "^3.3.0",
+    "chalk": "^1.1.1",
+    "coveralls": "^2.11.4",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "istanbul": "^0.3.22",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.3",
+    "uglify-js": "^2.5.0"
+  },
+  "dependencies": {
+    "norm.js": "^0.1.3"
+  }
+}
